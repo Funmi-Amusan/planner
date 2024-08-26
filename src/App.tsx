@@ -1,11 +1,9 @@
-import Header from "./layout/header";
-import Sidebar from "./layout/sidebar";
+import Layout from "./components/layout/layout";
 
 const App = () => {
     return (
-        <div className=" bg-[#1c1f25]">
-            <Sidebar />
-            {/* <Header /> */}
+        <div>
+            <Layout />
         </div>
     );
 };
