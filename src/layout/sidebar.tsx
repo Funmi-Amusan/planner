@@ -4,7 +4,10 @@ import {
     IoCaretForwardSharp,
     IoCalendar,
     IoMail,
-    IoTimer
+    IoTimer,
+    IoStar,
+    IoRadioButtonOn,
+    IoCaretDown
 } from "react-icons/io5";
 
 const sidebar = () => {
@@ -48,7 +51,38 @@ const sidebar = () => {
             </div>
 
             {/* favourite */}
-            <div></div>
+            <div className=" w-full">
+                <nav className=" capitalize flex justify-between ">
+                    <div className=" items-center flex gap-2">
+                        <IoStar />
+                        <h1>favourite</h1>
+                    </div>
+                    <IoCaretDown />
+                </nav>
+                <div className=" ml-5">
+                    <nav className=" capitalize flex justify-between ">
+                        <div className=" items-center flex gap-2">
+                            <IoRadioButtonOn />
+                            <h1>favourite</h1>
+                        </div>
+                        <p>23</p>
+                    </nav>
+                    <nav className=" capitalize flex justify-between ">
+                        <div className=" items-center flex gap-2">
+                            <IoRadioButtonOn />
+                            <h1>favourite</h1>
+                        </div>
+                        <p>23</p>
+                    </nav>
+                    <nav className=" capitalize flex justify-between ">
+                        <div className=" items-center flex gap-2">
+                            <IoRadioButtonOn />
+                            <h1>favourite</h1>
+                        </div>
+                        <p>23</p>
+                    </nav>
+                </div>
+            </div>
 
             {/* workspace */}
             <div></div>
