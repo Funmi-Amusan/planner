@@ -7,7 +7,9 @@ import {
     IoTimer,
     IoStar,
     IoRadioButtonOn,
-    IoCaretDown
+    IoCaretDown,
+    IoCaretUp,
+    IoRocket
 } from "react-icons/io5";
 
 const sidebar = () => {
@@ -85,7 +87,15 @@ const sidebar = () => {
             </div>
 
             {/* workspace */}
-            <div></div>
+            <div className=" w-full">
+                <nav className=" capitalize flex justify-between ">
+                    <div className=" items-center flex gap-2">
+                        <IoRocket />
+                        <h1>work space</h1>
+                    </div>
+                    <IoCaretUp />
+                </nav>
+            </div>
             {/* upgrade */}
             <div></div>
 
