@@ -1,5 +1,8 @@
-import { IoIosAddCircle, IoIosNotifications } from "react-icons/io";
-import { IoSearchSharp } from "react-icons/io5";
+import {
+    IoSearchSharp,
+    IoAddCircleOutline,
+    IoNotificationsOutline
+} from "react-icons/io5";
 import avatar from "../assets/2150980030.jpg";
 
 const Header = () => {
@@ -20,8 +23,8 @@ const Header = () => {
                         />
                     </div>
                     <div className=" flex align-middle items-center gap-8">
-                        <IoIosAddCircle />
-                        <IoIosNotifications />
+                        <IoAddCircleOutline />
+                        <IoNotificationsOutline />
                         <img
                             src={avatar}
                             className=" w-8 rounded-full aspect-square"
