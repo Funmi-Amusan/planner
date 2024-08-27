@@ -1,5 +1,6 @@
 import React from "react";
 import TaskItem from "./taskItem";
+import { Tasks } from "../../mockData/taskData";
 
 const tasks = () => {
     return (
@@ -8,7 +9,14 @@ const tasks = () => {
                 <h2>My tasks</h2>
                 <button className=" underline">See all</button>
             </div>
-            <TaskItem />
+            {Tasks.map((task: any) => (
+                <TaskItem
+                    title={task.title}
+                    timeline={task.timeline}
+                    app={task.app}
+                    appImage={task.appImage}
+                />
+            ))}
         </div>
     );
 };
