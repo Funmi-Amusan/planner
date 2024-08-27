@@ -19,13 +19,6 @@ const tasks = () => {
                     appImage={task.appImage}
                 />
             ))}
-
-            <Paginator
-                rows={10}
-                totalRecords={120}
-                first={first}
-                onPageChange={(e) => setFirst(e.first)}
-            ></Paginator>
         </div>
     );
 };
