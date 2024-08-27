@@ -2,6 +2,8 @@ import React from "react";
 import TaskItem from "./taskItem";
 import { Tasks } from "../../mockData/taskData";
 
+import { Paginator } from "primereact/paginator";
+
 const tasks = () => {
     return (
         <div className=" bg-[#1c1f25] text-white work-sans">
@@ -17,6 +19,13 @@ const tasks = () => {
                     appImage={task.appImage}
                 />
             ))}
+
+            <Paginator
+                rows={10}
+                totalRecords={120}
+                first={first}
+                onPageChange={(e) => setFirst(e.first)}
+            ></Paginator>
         </div>
     );
 };
