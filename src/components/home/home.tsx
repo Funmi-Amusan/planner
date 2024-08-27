@@ -1,12 +1,15 @@
 import React from "react";
+import Tasks from "./tasks";
 
 const home = () => {
     return (
-        <div className=" bg-[#2e343e]">
-            <div className="grid grid-rows-2">
+        <div className=" w-full h-full ">
+            <div className="grid grid-cols-2 h-screen">
                 <div>
-                    <div>tasks</div>
-                    <div>projects</div>
+                    <div className=" h-3/5 ">
+                        <Tasks />
+                    </div>
+                    <div className=" h-2/5">projects</div>
                 </div>
 
                 <div>

@@ -3,7 +3,7 @@ import {
     IoAddCircleOutline,
     IoNotificationsOutline
 } from "react-icons/io5";
-import avatar from "../assets/2150980030.jpg";
+import avatar from "../../assets/2150980030.jpg";
 
 const Header = () => {
     return (
