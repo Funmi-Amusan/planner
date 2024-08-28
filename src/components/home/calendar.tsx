@@ -17,6 +17,12 @@ const calendar = () => {
                         <h3>Mon</h3>
                         <p>26</p>
                     </div>
+                    <div>
+                        <div className="bg-slate-600 w-full border-l-4 rounded-md border-blue-600 p-3">
+                            <h3>Task Planning</h3>
+                            <p>Review daily tasks and set priorities</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
