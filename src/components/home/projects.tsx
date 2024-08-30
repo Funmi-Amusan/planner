@@ -1,5 +1,5 @@
 import React from "react";
-import fitness from "../../assets/dylan-calluy-j-uwuuPHNeQ-unsplash.jpg";
+import fitness from "../../assets/2151061445.jpg";
 
 const projects = () => {
     return (
