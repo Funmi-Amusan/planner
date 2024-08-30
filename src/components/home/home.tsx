@@ -1,6 +1,7 @@
 import React from "react";
 import Tasks from "./tasks";
 import Calendar from "./calendar";
+import Projects from "./projects";
 
 const home = () => {
     return (
@@ -10,7 +11,9 @@ const home = () => {
                     <div className=" h-3/5 ">
                         <Tasks />
                     </div>
-                    <div className=" h-2/5">projects</div>
+                    <div className=" h-2/5">
+                        <Projects />
+                    </div>
                 </div>
 
                 <div>
