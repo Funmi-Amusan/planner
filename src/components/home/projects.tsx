@@ -10,7 +10,7 @@ const projects = () => {
             </div>
             <div>
                 <div>
-                    <img src={fitness} alt="" className=" w-32 rounded-lg" />
+                    {/* <img src={fitness} alt="" className=" w-32 rounded-lg" /> */}
                     <div>
                         <p>
                             App development#1
@@ -19,11 +19,11 @@ const projects = () => {
                             <div className=" flex justify-between">
                                 <button>view all</button>
                                 <div className=" ">
-                                    <img
+                                    {/* <img
                                         src={fitness}
                                         alt=""
                                         className=" w-4 rounded-full"
-                                    />
+                                    /> */}
                                 </div>
                             </div>
                         </p>
