@@ -63,7 +63,7 @@ const projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" flex flex-col items-center justify-center m-auto bg-slate-600 h-full rounded-xl">
+                <div className=" flex flex-col items-center justify-center m-auto px-4 text-sm bg-slate-600 h-full rounded-xl">
                     <h3 className=" text-center">+</h3>
                     <p>Create a new project</p>
                 </div>
