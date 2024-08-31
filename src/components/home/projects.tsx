@@ -15,24 +15,25 @@ const projects = () => {
                         alt=""
                         className=" w-32 rounded-t-xl h-1/2"
                     />
-                    <div>
-                        <p>
-                            App development#1
-                            <h2>Fitness App</h2>
-                            <p></p>
-                            <div className=" flex justify-between">
-                                <button className=" border border-blue-700 py-1 px-2 rounded-xl">
-                                    View all
-                                </button>
-                                <div className=" ">
-                                    {/* <img
-                                        src={fitness}
-                                        alt=""
-                                        className=" w-4 rounded-full"
-                                    /> */}
-                                </div>
-                            </div>
+                    <div className=" py-2">
+                        <p className=" text-xs font-light">App development#1</p>
+                        <h2>Fitness App</h2>
+                        <p className=" text-[0.5rem] font-light py-2">
+                            The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters.
                         </p>
+                        <div className=" flex justify-between">
+                            <button className=" border border-blue-700 text-sm py-0.5 px-2 rounded-lg">
+                                View all
+                            </button>
+                            <div className=" align-bottom flex   ">
+                                <img
+                                    src={fitness}
+                                    alt=""
+                                    className=" w-6 rounded-full align-bottom"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className=" p-2">
@@ -41,24 +42,25 @@ const projects = () => {
                         alt=""
                         className=" w-32 rounded-t-xl h-1/2"
                     />
-                    <div>
-                        <p>
-                            App development#1
-                            <h2>Fitness App</h2>
-                            <p></p>
-                            <div className=" flex justify-between">
-                                <button className=" border border-blue-700 py-1 px-2 rounded-xl">
-                                    View all
-                                </button>
-                                <div className=" ">
-                                    <img
-                                        src={fitness}
-                                        alt=""
-                                        className=" w-4 rounded-full"
-                                    />
-                                </div>
-                            </div>
+                    <div className=" py-2">
+                        <p className=" text-xs font-light">App development#1</p>
+                        <h2>Fitness App</h2>
+                        <p className=" text-[0.5rem] font-light py-2">
+                            The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters.
                         </p>
+                        <div className=" flex justify-between">
+                            <button className=" border border-blue-700 text-sm py-0.5 px-2 rounded-lg">
+                                View all
+                            </button>
+                            <div className=" align-bottom flex   ">
+                                <img
+                                    src={fitness}
+                                    alt=""
+                                    className=" w-6 rounded-full align-bottom"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center justify-center m-auto bg-slate-600 h-full rounded-xl">
