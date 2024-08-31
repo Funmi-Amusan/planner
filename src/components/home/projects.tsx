@@ -3,17 +3,17 @@ import fitness from "../../assets/2151061445.jpg";
 
 const projects = () => {
     return (
-        <div className=" text-white bg-black rounded-xl p-5">
+        <div className=" text-white rounded-xl p-5">
             <div className="flex justify-between">
                 <h2>Projects</h2>
                 <button>see all</button>
             </div>
             <div className=" grid grid-cols-3 gap-4">
-                <div className=" p-2">
+                <div className=" px-2 py-4 shadow-[0_3px_6px_0px_rgba(255,255,255,0.1)]">
                     <img
                         src={fitness}
                         alt=""
-                        className=" w-32 rounded-t-xl h-1/2"
+                        className=" w-fit rounded-t-xl h-1/2"
                     />
                     <div className=" py-2">
                         <p className=" text-xs font-light">App development#1</p>
@@ -36,11 +36,11 @@ const projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" p-2">
+                <div className=" p-2 shadow-[0_3px_6px_0px_rgba(255,255,255,0.1)]">
                     <img
                         src={fitness}
                         alt=""
-                        className=" w-32 rounded-t-xl h-1/2"
+                        className=" w-fit rounded-t-xl h-1/2"
                     />
                     <div className=" py-2">
                         <p className=" text-xs font-light">App development#1</p>
