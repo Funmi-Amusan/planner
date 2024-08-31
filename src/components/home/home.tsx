@@ -8,11 +8,11 @@ const home = () => {
     return (
         <div className=" w-full h-full  work-sans ">
             <div className="grid grid-cols-2 gap-5">
-                <div className=" grid grid-rows-6 gap-4">
-                    <div className=" row-span-4">
+                <div className=" grid grid-rows-7">
+                    <div className=" row-span-4 ">
                         <Tasks />
                     </div>
-                    <div className=" row-span-2">
+                    <div className=" row-span-3">
                         <Projects />
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import fitness from "../../assets/2151061445.jpg";
 
 const projects = () => {
     return (
-        <div className=" text-white bg-black p-5">
+        <div className=" text-white bg-black rounded-xl p-5">
             <div className="flex justify-between">
                 <h2>Projects</h2>
                 <button>see all</button>
