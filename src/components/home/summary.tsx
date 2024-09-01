@@ -9,10 +9,10 @@ const Summary = () => {
                     return (
                         <div className="flex justify-between bg-black rounded-xl p-4">
                             <div className="bg-black">
-                                <p>{item.title}</p>
+                                <p className=" text-xs ">{item.title}</p>
                                 <div className=" flex gap-2">
-                                    <h2>{item.ratio}</h2>
-                                    <h3 className=" text-green-700">
+                                    <h2 className="text-base">{item.ratio}</h2>
+                                    <h3 className=" text-green-700 text-xs my-auto">
                                         {item.percentage}
                                     </h3>
                                 </div>
