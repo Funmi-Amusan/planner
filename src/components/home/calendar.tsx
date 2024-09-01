@@ -2,9 +2,9 @@ import React from "react";
 
 const calendar = () => {
     return (
-        <div className=" text-white">
+        <div className=" text-white bg-black border border-slate-700 p-5 rounded-xl">
             <div className=" flex justify-between ">
-                <h1>Calendar</h1>
+                <h1 className=" ">Calendar</h1>
                 <p className=" underline">See all</p>
             </div>
             <div>

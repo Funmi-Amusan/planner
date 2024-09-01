@@ -7,7 +7,7 @@ const Summary = () => {
             <div className=" grid grid-cols-2 gap-4 ">
                 {summary.map((item) => {
                     return (
-                        <div className="flex justify-between bg-black rounded-xl p-4">
+                        <div className="flex justify-between border border-slate-700 bg-black rounded-xl p-4">
                             <div className="bg-black">
                                 <p className=" text-xs ">{item.title}</p>
                                 <div className=" flex gap-2">
