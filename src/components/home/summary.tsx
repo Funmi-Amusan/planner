@@ -1,4 +1,3 @@
-import { IoRocket } from "react-icons/io5";
 import { summary } from "../../mockData/summary";
 
 const Summary = () => {
@@ -6,8 +5,12 @@ const Summary = () => {
         <div className=" text-white   grid grid-rows-2 gap-4 mx-3">
             <div className=" grid grid-cols-2 gap-4 ">
                 {summary.map((item) => {
+                    const IconComponent = item.icon;
                     return (
-                        <div className="flex justify-between border border-slate-700 bg-black rounded-xl p-4">
+                        <div
+                            key={item.title}
+                            className="flex justify-between border border-slate-700 bg-black rounded-xl p-4"
+                        >
                             <div className="bg-black">
                                 <p className=" text-xs ">{item.title}</p>
                                 <div className=" flex gap-2">
@@ -17,8 +20,10 @@ const Summary = () => {
                                     </h3>
                                 </div>
                             </div>
-                            <div>
-                                <IoRocket className=" w-full h-full bg-slate-700 p-4 text-blue-600 rounded-xl" />
+                            <div className="bg-slate-700 w-1/4 rounded-xl p-3 ">
+                                {IconComponent && (
+                                    <IconComponent className=" h-full w-full  text-blue-600 " />
+                                )}
                             </div>
                         </div>
                     );
