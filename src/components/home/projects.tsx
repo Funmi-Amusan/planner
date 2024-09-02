@@ -1,5 +1,6 @@
 import React from "react";
 import fitness from "../../assets/2151061445.jpg";
+import MultipleAvatars from "../utils/multipleAvatars";
 
 const projects = () => {
     return (
@@ -27,11 +28,7 @@ const projects = () => {
                                 View all
                             </button>
                             <div className=" align-bottom flex   ">
-                                <img
-                                    src={fitness}
-                                    alt=""
-                                    className=" w-6 rounded-full align-bottom"
-                                />
+                                <MultipleAvatars />
                             </div>
                         </div>
                     </div>
@@ -54,11 +51,7 @@ const projects = () => {
                                 View all
                             </button>
                             <div className=" align-bottom flex   ">
-                                <img
-                                    src={fitness}
-                                    alt=""
-                                    className=" w-6 rounded-full align-bottom"
-                                />
+                                <MultipleAvatars />
                             </div>
                         </div>
                     </div>

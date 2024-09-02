@@ -6,7 +6,7 @@ import Summary from "./summary";
 
 const home = () => {
     return (
-        <div className=" w-full h-full  work-sans ">
+        <div className=" w-full h-full work-sans p-5 ">
             <div className="grid grid-cols-7 gap-5">
                 <div className=" col-span-4 ">
                     <div className=" grid grid-rows-2 gap-1">

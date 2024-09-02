@@ -4,10 +4,11 @@ import {
     IoNotificationsOutline
 } from "react-icons/io5";
 import avatar from "../../assets/2150980030.jpg";
+import { Tooltip } from "primereact/tooltip";
 
 const Header = () => {
     return (
-        <div className=" flex justify-between items-center text-white">
+        <div className=" flex justify-between items-center text-white bg-black border border-slate-700">
             <h1 className=" text-white work-sans-semi-bold text-xl py-5 mx-10 active:border-b-2 border-blue">
                 Home
             </h1>
