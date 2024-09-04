@@ -6,6 +6,8 @@ import "./index.css";
 import Home from "./pages/home";
 import Prices from "./pages/prices";
 import Schedule from "./pages/schedule";
+import Dashboard from "./pages/dashboard";
+import CreateWorkflow from "./pages/CreateWorkflow";
 
 const router = createBrowserRouter([
     {
@@ -19,7 +21,27 @@ const router = createBrowserRouter([
     {
         path: "/schedule",
         element: <Schedule />
+    },
+    {
+        path: "/geek-dashboard",
+        element: <Dashboard />
+    },
+    {
+        path: "/geek-dashboard/workflow",
+        element: <Dashboard />
+    },
+    {
+        path: "/geek-dashboard/workflow/create",
+        element: <CreateWorkflow />
     }
+    //   {
+    //     path: "/schedule",
+    //     element: <Schedule />
+    // },
+    // {
+    //   path: "/schedule",
+    //   element: <Schedule />
+    // },
 ]);
 
 const root = ReactDOM.createRoot(
