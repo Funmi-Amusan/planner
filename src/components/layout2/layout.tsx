@@ -4,7 +4,7 @@ import Header from "./header";
 
 const layout = ({ children }: any) => {
     return (
-        <div className=" dark:bg-white bg-[#1C1F25]">
+        <div className=" bg-white dark:bg-black">
             <div className="flex align-top">
                 <Sidebar />
                 <div className="h-fit w-full">

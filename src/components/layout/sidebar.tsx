@@ -14,7 +14,7 @@ import { FiUserMinus, FiMoreVertical } from "react-icons/fi";
 
 const sidebar = () => {
     return (
-        <div className=" flex flex-col items-center work-sans h-screen text-white w-64 p-6 gap-y-12 bg-black border border-slate-700">
+        <div className=" flex flex-col items-center work-sans h-screen text-white w-64 p-6 gap-y-12 dark:bg-black bg-red border border-slate-700">
             {/* header */}
             <div className=" w-full flex text-2xl items-center justify-start text-start gap-3">
                 <IoCalendarOutline />
