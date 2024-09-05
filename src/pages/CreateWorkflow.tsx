@@ -1,4 +1,4 @@
-import StepperComponent from "../components/dashboard/stepper";
+import { StepsDemo } from "../components/dashboard/stepper";
 import Layout from "../components/layout2/layout";
 
 const CreateWorkflow = () => {
@@ -8,7 +8,7 @@ const CreateWorkflow = () => {
                 <h2>Check in</h2>
 
                 <div>
-                    <StepperComponent />
+                    <StepsDemo />
                 </div>
             </div>
         </Layout>
