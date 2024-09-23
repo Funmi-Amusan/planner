@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 type TabItem = {
     id: Number;
@@ -76,7 +76,6 @@ const Tabs = () => {
         ]
     ];
     const [activeTab, setActiveTab] = useState<number>();
-    const [weeksNo, setWeeksNo] = useState<number[]>([]);
     const [weeksArray, setWeeksArray] = useState<number[]>([]);
     const [selectedDays, setSelectedDays] = useState<string[][]>(weekdays);
 
@@ -98,7 +97,6 @@ const Tabs = () => {
     const handleTabClick = (tab: TabItem) => {
         setActiveTab(Number(tab.id));
         setWeeksArray(tab.weeks);
-        const noOfWeeks = tab.weeks.length;
         const newSelectedDays = Array(Number(tab.id))
             .fill(null)
             .map(() => [...weekdays[0]]);
