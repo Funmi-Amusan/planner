@@ -8,7 +8,7 @@ export const StepsDemo = () => {
     const items = [
         {
             label: "Personal",
-            command: (event) => {
+            command: (event: { item: { label: any } }) => {
                 toast.current.show({
                     severity: "info",
                     summary: "First Step",
@@ -18,7 +18,7 @@ export const StepsDemo = () => {
         },
         {
             label: "Seat",
-            command: (event) => {
+            command: (event: { item: { label: any } }) => {
                 toast.current.show({
                     severity: "info",
                     summary: "Seat Selection",
@@ -28,7 +28,7 @@ export const StepsDemo = () => {
         },
         {
             label: "Payment",
-            command: (event) => {
+            command: (event: { item: { label: any } }) => {
                 toast.current.show({
                     severity: "info",
                     summary: "Pay with CC",
@@ -38,7 +38,7 @@ export const StepsDemo = () => {
         },
         {
             label: "Confirmation",
-            command: (event) => {
+            command: (event: { item: { label: any } }) => {
                 toast.current.show({
                     severity: "info",
                     summary: "Last Step",
