@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aldabil/react-scheduler": "^2.9.5",
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-react": "^2.3.0",
     "@devexpress/dx-react-core": "^4.0.8",
