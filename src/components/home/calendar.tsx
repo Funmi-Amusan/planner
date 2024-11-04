@@ -2,7 +2,7 @@ import { Calendar } from "primereact/calendar";
 import { useState } from "react";
 
 const calendar = () => {
-    // const [date, setDate] = useState(null);
+
     const date = new Date();
     return (
         <div className=" text-white bg-black border border-slate-700 p-5 rounded-xl">
