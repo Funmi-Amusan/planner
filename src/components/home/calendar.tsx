@@ -1,6 +1,3 @@
-import { Calendar } from "primereact/calendar";
-import { useState } from "react";
-
 const calendar = () => {
 
     const date = new Date();
